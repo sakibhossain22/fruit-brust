@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/bdfb6e9a76.js" crossorigin="anonymous"></script>
+    <title>Fruit Burst</title>
+    <style>
+        .lato {
+            font-family: 'Lato';
+        }
+    </style>
+</head>
+
+<body class="lato">
+    <header class="max-w-screen-xl mx-auto">
+        <nav class="hidden lg:block">
+            <div class="flex justify-center items-center px-14 py-4 my-10 bg-[#F85559] rounded-full text-white">
+                <div class="flex-1">
+                    <ul class="flex gap-7">
+                        <li class="text-lg font-medium">Home</li>
+                        <li class="text-lg font-medium">About Us</li>
+                        <li class="text-lg font-medium">Shop</li>
+                        <li class="text-lg font-medium">All Fruits</li>
+                    </ul>
+                </div>
+                <div class="flex-1 flex items-center gap-5">
+                    <img src="images/logo.png" alt="">
+                    <h1 class="text-4xl font-bold">Fruit Burst</h1>
+                </div>
+                <div class="relative">
+                    <input class="border-none py-3 px-8 rounded-full" type="text" name="" id=""
+                        placeholder="Search Here">
+                    <i class="fa-solid fa-magnifying-glass text-black absolute top-4 right-7"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner Section -->
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img style="background-color: linear-gradient: rgba(0,0,0,0.2), rgba(0,0,0,0.7);" src="./images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <div class="text-white text-center space-y-4">
+                            <h1 class="text-6xl font-extrabold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="btn bg-[#F85559] border-none text-white px-8 py-4">Purchase</button>
+                        </div>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fruit Card -->
+        <div>
+            <!-- card 1-->
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
